@@ -110,19 +110,19 @@
 			<div class="login-form">
 				<div class="sign-in-htm">
 					<div class="group">
-						<label for="user" class="label">Username</label>
-						<input id="user" type="text" class="input">
+						<label for="user" class="label">Email</label>
+						<input id="inputEmailLogin" type="email" class="input">
 					</div>
 					<div class="group">
 						<label for="pass" class="label">Password</label>
-						<input id="pass" type="password" class="input" data-type="password">
+						<input id="inputPasswordLogin" type="password" class="input" data-type="password">
 					</div>
 					<div class="group">
 						<input id="check" type="checkbox" class="check" checked>
 						<label for="check"><span class="icon"></span> Keep me Signed in</label>
 					</div>
 					<div class="group">
-						<input type="submit" class="button" value="Sign In">
+						<input id="signInButton" type="submit" class="button" value="Sign In">
 					</div>
 					<div class="hr"></div>
 					<div class="foot-lnk">
@@ -135,19 +135,20 @@
 						<input id="user" type="text" class="input">
 					</div>
 					<div class="group">
+						<label for="pass" class="label">Email Address</label>
+						<input id="inputEmailRegister" type="text" class="input">
+					</div>
+					<div class="group">
 						<label for="pass" class="label">Password</label>
-						<input id="pass" type="password" class="input" data-type="password">
+						<input id="inputPasswordRegister" id="pass" type="password" class="input" data-type="password">
 					</div>
 					<div class="group">
 						<label for="pass" class="label">Repeat Password</label>
 						<input id="pass" type="password" class="input" data-type="password">
 					</div>
+					
 					<div class="group">
-						<label for="pass" class="label">Email Address</label>
-						<input id="pass" type="text" class="input">
-					</div>
-					<div class="group">
-						<input type="submit" class="button" value="Sign Up">
+						<input id="signUpButton" type="submit" class="button" value="Sign Up">
 					</div>
 					<div class="hr"></div>
 					<div class="foot-lnk">
@@ -162,7 +163,9 @@
 		crossorigin="anonymous"></script>
 
 	
-
+		<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+		<script src="auth.js"></script>
 </body>
 
 </html>
