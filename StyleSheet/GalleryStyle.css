@@ -1,0 +1,77 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #EFE6DC;
+}
+
+.card img {
+    height: 270px;
+}
+
+main h3{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/* ---------------------NavBar ------------------------ */
+
+.nav-2 {
+background-color: white;
+align-items: center;
+}
+
+.nav-2 .list-1 {
+margin-left: 130px;
+}
+.nav-item{
+font-size: 15px;
+}
+
+        /*********************************************************footer**********************************/
+        footer {
+            margin-top: 40px;
+            height: 280px;
+            color: aliceblue;
+            background-color: #1e81b0;
+        }
+
+        .end {
+            padding-top: 30px;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .tata {
+            width: 30%;
+            margin-left: 70px;
+            margin-right: 90px;
+        }
+
+        .tata h3 {
+            margin-left: 20px;
+        }
+
+        .tata p {
+            margin-left: 20px;
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        .tata a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .tata h5 {
+            margin: 10px 20px;
+        }
+
+        .icon {
+            margin-left: 20px;
+        }
+
+        .icon i{
+            color: white;
+        }

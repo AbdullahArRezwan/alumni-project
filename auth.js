@@ -63,7 +63,7 @@ signInButton.addEventListener("click", (e) => {
             var user = userCredential.user;
             console.log("user", user);
             if(user.emailVerified){
-                window.location = "index.html";
+                window.location = "Home.html";
                 alert("Congratulations. Logged In Successfully");
             }
             else {

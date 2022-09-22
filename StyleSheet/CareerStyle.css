@@ -1,0 +1,123 @@
+body {
+    font-family: Georgia, serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font: 600 16px/18px 'Open Sans', sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(/Images/Others/CareerBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.banner-text h1 {
+    text-align: center;
+    padding-top: 270px;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+/* ------------------------Nav Bar -------------------------- */
+
+.nav-2 {
+    background-color: white;
+    align-items: center;
+}
+
+.nav-2 .list-1 {
+    margin-left: 200px;
+}
+.nav-item{
+    font-size: 15px;
+}
+
+/*  -----------------------Table ------------------------ */
+
+.career-table{
+    margin: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .career-table img{
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+  }
+
+  .career-table .btn{
+    background-color: #1e81b0;
+  }
+
+  .career-table .btn:hover{
+    background-color: #4bacda;
+    color: black;
+    border: none;
+  }
+
+
+/* --------------------Footer -------------------------------------- */
+
+footer {
+    margin-top: 40px;
+    height: 280px;
+    color: aliceblue;
+    background-color: #1e81b0;
+}
+
+.end {
+    padding-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tata {
+    width: 30%;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.tata h3 {
+    margin-left: 20px;
+}
+
+.tata p {
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.tata a {
+    text-decoration: none;
+    color: white;
+}
+
+.tata h5 {
+    margin: 10px 20px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.icon i{
+    color: white;
+}

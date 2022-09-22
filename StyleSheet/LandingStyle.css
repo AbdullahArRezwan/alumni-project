@@ -1,0 +1,217 @@
+        /*****************************font************************/
+        body {
+            font-family: Georgia, serif;
+            /* font-family: 'Poppins', sans-serif; */
+            /* font: 600 16px/18px 'Open Sans', sans-serif; */
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-2 {
+            background-color: white;
+            align-items: center;
+        }
+
+        .nav-2 .list-1 {
+            margin-left: 130px;
+        }
+        .nav-item{
+            font-size: 15px;
+        }
+        .dropdown-item{
+            height: 40px;
+        }
+
+        .form-1 {
+            margin-left: 75%;
+        }
+
+        .login a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /*************************************************************
+        ********************banner start here****************************/
+        .banner img {
+            height: 650px;
+            width: 100%;
+        }
+
+        .carousel-caption {
+            /* color: rgb(246, 255, 244); */
+            bottom: 50px;
+        }
+
+        .slider-title{
+            color: white;
+        }
+
+        .carousel-caption h1 {
+            font-size: 100px;
+            color: blanchedalmond;
+            font-weight: 600;
+        }
+
+        .carousel-caption p {
+            font-size: 20px;
+        }
+
+        .carousel-caption button {
+            background-color: blue;
+        }
+
+        .carousel-caption button a {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .icon img {
+            height: 50px;
+            width: 50px;
+        }
+
+        /* .active img {
+            background-image: linear-gradient(50deg, #000000, #e7dfdf1f);
+        } */
+        /* .caros-1 {
+            background-image: linear-gradient(50deg, #000000, #e7dfdf1f), url('New folder/banner/1.jpg ');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 800px;
+            position: relative;
+        }
+
+        .caros-2 {
+            background-image: linear-gradient(50deg, #000000, #e7dfdf1f), url('New folder/banner/2.jpg ');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 800px;
+            position: relative;
+        }
+
+        .caros-3 {
+            background-image: linear-gradient(50deg, #000000, #e7dfdf1f), url('New folder/banner/3.jpg ');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 800px;
+            position: relative;
+        } */
+
+        /********************************************************************
+        ************************part-2 start here********************************/
+        .date h4 {
+            background-color: red;
+            margin: 0;
+            padding: 5px;
+        }
+
+        .date p {
+            margin: 0;
+            padding: 5px;
+            background-color: rgb(205, 127, 127);
+        }
+
+        .month {
+            margin: 0;
+            padding: 5px;
+            background-color: rgb(218, 16, 16);
+        }
+
+        .btn a {
+            font-weight: 700;
+            text-decoration: none;
+            color: white;
+        }
+
+        /********************************************************part- 2 end***********************************/
+        .part-3 button {
+            margin-top: 5%;
+            margin-left: 45%;
+        }
+
+        .part-3 button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /**************************alumni interview************************/
+        .part-4 {
+            margin-right: 100px;
+        }
+
+        .part-4 img {
+            padding-left: 50px;
+            width: 90%;
+            height: 500px;
+        }
+
+        .description {
+
+            margin-top: 150px;
+            height: 500px;
+
+        }
+
+
+        .part-4 button {
+            background-color: rgb(75, 180, 221);
+        }
+
+        .part-4 button a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        /*********************************************************footer**********************************/
+        footer {
+            margin-top: 40px;
+            height: 280px;
+            color: aliceblue;
+            background-color: #1e81b0;
+        }
+
+        .end {
+            padding-top: 30px;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .tata {
+            width: 30%;
+            margin-left: 70px;
+            margin-right: 90px;
+        }
+
+        .tata h3 {
+            margin-left: 20px;
+        }
+
+        .tata p {
+            margin-left: 20px;
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        .tata a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .tata h5 {
+            margin: 10px 20px;
+        }
+
+        .icon {
+            margin-left: 20px;
+        }
+
+        .icon i{
+            color: white;
+        }
